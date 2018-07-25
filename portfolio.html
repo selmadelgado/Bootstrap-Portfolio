@@ -1,76 +1,151 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-    
-    <!--Responsive Mobile Meta Tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  <title>Selma Delgado | Bootstrap Portfolio</title>
-    
-     <!--Bootstrap links, CSS, JQUERY, JavaScript-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
-    <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="UTF-8">
+
+	<!--Responsive Mobile Meta Tag-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Selma Delgado | Bootstrap Portfolio</title>
+
+	<!--Bootstrap links, CSS, JQUERY, JavaScript-->
+	<link rel="icon" href="assets/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Selma Delgado</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+    
+    <div class="mycontent">
+		<nav class="navbar navbar-default myheader">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavPtr">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>						
+					<div class="navbar-brand myh1">Selma Delgado</div>
+				</div>
+				<div class="navbar navbar-collapse collapse mynavbar" id="myNavPtr">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div> <!-- /.navbar-collapse -->
+			</div> <!-- /.container-fluid -->
+		</nav>
         
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+		<div class="container">
+			<div class="row">
+				<section class="col-md-8">
+					<div class="col-md-12 mysection">
+						<div class="myh2">Portfolio</div>
+						<hr id="hrtop">
 
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+						<div class="row">
+							<div class="col-md-6 pfgrp">
+                                <img class="pfimg" src="assets/images/000.jpg"  alt="Word Guess">
+								<button class="pfbtn">Word Guess</button>
+							</div>
+							<div class="col-md-6 pfgrp">
+								<img class="pfimg" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">					
+								<button class="pfbtn">RPG Game</button>
+							</div>
+						</div>
 
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+						<div class="row">
+							<div class="col-md-6">
+								<img class="pfimg" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+								<button class="pfbtn">Trivia Game</button>
+							</div>
+                            
+							<div class="col-md-6">
+								<img class="pfimg" src="assets/images/technics-q-c-640-480-7.jpg" alt="Portfolio #4">					
+								<button class="pfbtn">Weather Widget</button>
+							</div>
+						</div>
 
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+						<div class="row">
+							<div class="col-md-6">
+								<img class="pfimg"src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock, Paper, Scissors">
+								<button class="pfbtn">Rock, Paper, Scissors</button>
+							</div>
+                            
+							<div class="col-md-6">
+								<img class="pfimg" src="assets/images/technics-q-c-640-480-1.jpg" alt="Portfolio #5">
+								<button class="pfbtn">Hangman</button>
+							</div>
+                            
+						</div>
+					</div>
+				</section>
+                
+				<section class="col-md-4">
+					<div class="col-md-12 mysection">
+						<div class="myh3 letsConnect">Lets Connect!</div>
+						<hr>
 
-        <h3>Rock Paper Scissors</h3>
-      </div>
+						<div class="sideicon">
+							<a href="https://github.com/selmadelgado" target="_blank">
+								<img class="iconimg" src="assets/images/github_icon.png" >
+							</a>
+							<a href="https://www.linkedin.com/in/selmadelgado/" target="_blank">
+								<img class="iconimg" src="assets/images/linkedin_icon.png" >
+							</a>
+                            
+                            <a href="https://www.freecodecamp.org/selmadelgado/" target="_blank">
+								<img class="iconimg" src="assets/images/fcc_icon.jpg" >
+							</a>
+        
+						</div>
+                                                                                     
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
 
-    </section>
+	<footer>
+		 Selma Delgado | &copy; 2018
+	</footer>
 
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
 </body>
-
 </html>
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+
+   
+
+   
+	
+
+
+
+
+    
+    
+    
+    
+    
+
+  
+  
+ 
