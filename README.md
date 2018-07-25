@@ -1,10 +1,10 @@
 # Bootstrap-Portfolio
 A portfolio layout using the Bootstrap CSS Framework.
 
-Live Project:
+### Live Project:
 https://selmadelgado.github.io/Bootstrap-Portfolio/
 
-Assignment Two Instructions (Bootstrap)
+### Instructions: 
 Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
 
 Using Bootstrap, recreate your portfolio site with the following items:
